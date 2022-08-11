@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Triangle Tracker</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>Enter the lengths of the sides</h2>
+  <form id="allSides">
+    <label for="side1">Enter Side 1:</label>
+    <input id="side1" type="number" name="side1">
+    <label for="side2">Enter Side 2:</label>
+    <input id="side2" type="number" name="side2">
+    <label for="side3">Enter side 3:</label>
+    <input id="side3" type="number" name="side3">
+    <button type="submit">Identify My Triangle!</button>
+  </form>
+
+  <h1>Your Triangle!</h1>
+  <p id="3same" class="hidden">Your Triangle is an Equilateral Triangle! All three of its sides are the same!</p>
+
+  <p id="2same" class="hidden">Your Triangle is an Isosceles Triangle! Two sides are the same!</p>
+  
+  <p id="nosame" class="hidden">Your Triangle is a Scalene Triangle! No sides are the same!</p>
+
+  <p id="error" class="hidden">Your sides do not add up to make a triangle :/ <br> Next time TRI harder </p>
+
+  
+</body>
+</html>
